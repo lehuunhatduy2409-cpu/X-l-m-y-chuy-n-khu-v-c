@@ -1,0 +1,11 @@
+CÁCH TẠO FILE APK (miễn phí, khoảng 5 phút, không cần cài phần mềm)
+
+1. Vào https://github.com và đăng ký/đăng nhập tài khoản.
+2. Bấm dấu "+" ở góc phải trên > "New repository" > đặt tên: xuly-may > Create repository.
+3. Bấm "uploading an existing file", kéo thả TOÀN BỘ nội dung đã giải nén của file zip này vào
+   (gồm thư mục www, .github, package.json, capacitor.config.json). Bấm "Commit changes".
+   Lưu ý: thư mục ".github" bị ẩn trên một số máy; nếu không thấy, bật "Hiện tệp ẩn".
+4. Vào tab "Actions" > chọn "Build APK" > "Run workflow" (nếu chưa tự chạy). Chờ ~3-5 phút đến khi có dấu tích xanh.
+5. Bấm vào lần chạy đó, kéo xuống mục "Artifacts" > tải "xuly-may-apk" (file zip), giải nén được app-debug.apk.
+6. Gửi file app-debug.apk qua điện thoại Android, mở lên và cài đặt
+   (cho phép "Cài ứng dụng từ nguồn không xác định" nếu máy hỏi). Lần đầu mở app, cho phép quyền Camera.
